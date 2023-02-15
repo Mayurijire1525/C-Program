@@ -16,6 +16,7 @@ void addNode(){
 	getchar();
 	newNode->next=NULL;
 }
+
 void printLL(){
 	Mov*temp=head;
 	while(temp!=NULL){
